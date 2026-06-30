@@ -3,31 +3,31 @@ import { useState } from 'react'
 const photos = [
   {
     id: 'b1',
-    src: '/B1.jpg',
+    src: 'B1.jpg',
     alt: '大蓝的特写',
     title: '大蓝',
   },
   {
     id: 'b2',
-    src: '/B2.jpg',
+    src: 'B2.jpg',
     alt: '大蓝端庄的样子',
     title: '大蓝',
   },
   {
     id: 'w1',
-    src: '/W1.jpg',
+    src: 'W1.jpg',
     alt: '小白的可爱模样',
     title: '小白',
   },
   {
     id: 'w2',
-    src: '/W2.jpg',
+    src: 'W2.jpg',
     alt: '小白的萌样子',
     title: '小白',
   },
   {
     id: 't1',
-    src: '/T1.jpg',
+    src: 'T1.jpg',
     alt: '大蓝和小白的合照',
     title: '我们在一起',
   },

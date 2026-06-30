@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="bg-gray-50 rounded-lg overflow-hidden mb-12">
         <img
-          src="/T1.jpg"
+          src="T1.jpg"
           alt="大蓝和小白合照"
           className="w-full h-auto object-cover max-h-96"
         />
