@@ -1,4 +1,4 @@
-import { BlueBirdIcon, WhiteBirdIcon } from './BirdSVG'
+import { PixelBlueBird, PixelWhiteBird } from './PixelBird'
 
 export default function CharactersSection() {
   return (
@@ -19,7 +19,7 @@ export default function CharactersSection() {
           </div>
           <div className="md:w-1/2">
             <div className="flex justify-center mb-6">
-              <BlueBirdIcon size={160} />
+              <PixelBlueBird size={160} />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-4">大蓝</h3>
             <div className="space-y-3 text-gray-700">
@@ -55,7 +55,7 @@ export default function CharactersSection() {
           </div>
           <div className="md:w-1/2">
             <div className="flex justify-center mb-6">
-              <WhiteBirdIcon size={160} />
+              <PixelWhiteBird size={160} />
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-4">小白</h3>
             <div className="space-y-3 text-gray-700">
