@@ -24,7 +24,7 @@ export default function StorySection() {
     <section className="py-16 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16 flex justify-center">
-          <PixelSectionTitle text="他们的故事" size={40} />
+          <PixelSectionTitle text="他们的故事" size={80} />
         </div>
 
         <div className="space-y-12">

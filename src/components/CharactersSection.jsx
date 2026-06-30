@@ -6,7 +6,7 @@ export default function CharactersSection() {
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 flex justify-center">
-          <PixelSectionTitle text="他们的档案" size={40} />
+          <PixelSectionTitle text="他们的档案" size={80} />
         </div>
 
         {/* 大蓝档案 */}

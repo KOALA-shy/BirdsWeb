@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="py-20 md:py-32 px-4">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-12 flex justify-center">
-          <PixelTitleBigSmall text="鸟话日常" size={60} />
+          <PixelTitleBigSmall text="鸟话日常" size={120} />
         </div>
 
         <div className="flex justify-center">
