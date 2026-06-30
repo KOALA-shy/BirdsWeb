@@ -29,7 +29,7 @@ export default function StorySection() {
 
         <div className="space-y-12">
           {storyItems.map((item, idx) => (
-            <div key={idx} className="bg-gradient-to-r from-blue-100 to-pink-100 rounded-lg p-6">
+            <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#fffbf0' }}>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 {item.title}
               </h3>

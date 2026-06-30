@@ -126,6 +126,33 @@ export function PixelQBirdHead({ type = 'blue', size = 50, opacity = 0.1 }) {
   const color = type === 'blue' ? '#60a5fa' : '#f0f0f0'
   const darkColor = type === 'blue' ? '#1e40af' : '#d0d0d0'
 
+  if (type === 'white') {
+    // 小白的头加淡紫色
+    return (
+      <svg viewBox="0 0 60 70" width={size} height={size} opacity={opacity}>
+        {/* 头 - 淡紫色 */}
+        <rect x="15" y="10" width="30" height="30" fill="#e9d5ff" />
+        <rect x="13" y="12" width="2" height="26" fill="#e9d5ff" />
+        <rect x="45" y="12" width="2" height="26" fill="#e9d5ff" />
+
+        {/* 鼻子 */}
+        <rect x="22" y="18" width="6" height="4" fill={darkColor} />
+        <rect x="32" y="18" width="6" height="4" fill={darkColor} />
+
+        {/* 鼻孔 */}
+        <rect x="23" y="19" width="1" height="1" fill="#000" />
+        <rect x="33" y="19" width="1" height="1" fill="#000" />
+
+        {/* 喙 */}
+        <rect x="27" y="26" width="6" height="1" fill="#d4a574" />
+        <rect x="26" y="27" width="8" height="1" fill="#d4a574" />
+
+        {/* 眼睛 */}
+        <rect x="36" y="20" width="1" height="1" fill="#000" />
+      </svg>
+    )
+  }
+
   return (
     <svg viewBox="0 0 60 70" width={size} height={size} opacity={opacity}>
       {/* 头 */}
