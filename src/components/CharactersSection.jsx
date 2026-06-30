@@ -4,7 +4,7 @@ export default function CharactersSection() {
   return (
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-16 text-gray-800">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 pixel-font">
           他们的档案
         </h2>
 

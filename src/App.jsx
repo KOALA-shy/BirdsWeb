@@ -6,7 +6,7 @@ import BackgroundPattern from './components/BackgroundPattern'
 
 function App() {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative overflow-hidden" style={{ backgroundColor: '#f3e8ff' }}>
       <BackgroundPattern />
       <div className="relative z-10">
         <Header />
