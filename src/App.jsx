@@ -6,8 +6,13 @@ import BackgroundPattern from './components/BackgroundPattern'
 
 function App() {
   return (
-    <div className="relative overflow-hidden" style={{ backgroundColor: '#f3e8ff' }}>
-      <BackgroundPattern />
+    <div className="relative overflow-hidden min-h-screen" style={{ backgroundColor: '#faf5ff' }}>
+      {/* 背景图案 */}
+      <div className="absolute inset-0 z-0">
+        <BackgroundPattern />
+      </div>
+
+      {/* 主要内容 */}
       <div className="relative z-10">
         <Header />
         <HeroSection />

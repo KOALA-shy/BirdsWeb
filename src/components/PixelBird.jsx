@@ -123,8 +123,8 @@ export function PixelWhiteBird({ size = 120 }) {
 
 // Q版头用于背景
 export function PixelQBirdHead({ type = 'blue', size = 50, opacity = 0.1 }) {
-  const color = type === 'blue' ? '#3b82f6' : '#f5f5f5'
-  const darkColor = type === 'blue' ? '#1e40af' : '#c0c0c0'
+  const color = type === 'blue' ? '#60a5fa' : '#f0f0f0'
+  const darkColor = type === 'blue' ? '#1e40af' : '#d0d0d0'
 
   return (
     <svg viewBox="0 0 60 70" width={size} height={size} opacity={opacity}>

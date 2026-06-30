@@ -1,3 +1,5 @@
+import { PixelSectionTitle } from './PixelTitle'
+
 const storyItems = [
   {
     title: '初相识',
@@ -21,9 +23,9 @@ export default function StorySection() {
   return (
     <section className="py-16 px-4">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 pixel-font">
-          他们的故事
-        </h2>
+        <div className="text-center mb-16 flex justify-center">
+          <PixelSectionTitle text="他们的故事" size={40} />
+        </div>
 
         <div className="space-y-12">
           {storyItems.map((item, idx) => (
